@@ -1,0 +1,278 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+v2.0 | 20110126
+License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/* 下列這段作法為寬度＆高度設定多少,border box就是多少 */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  /* 邊框區塊 */
+}
+
+body {
+  line-height: 1.5;
+  font-family: "Castoro", serif;
+}
+
+img {
+  display: block;
+}
+
+.tc-primary {
+  color: #AE0000;
+}
+
+.tc-secondary {
+  color: #949494;
+}
+
+.fs-1 {
+  font-size: 1.25rem;
+  /* 20px */
+}
+
+.fs-2 {
+  font-size: 1.5rem;
+  /* 24px */
+}
+
+.fs-3 {
+  font-size: 2rem;
+  /* 32px */
+}
+
+.fs-4 {
+  font-size: 2.5rem;
+  /* 40px */
+}
+
+.fs-5 {
+  font-size: 8rem;
+  /* 128px */
+}
+
+.container {
+  width: 1296px;
+  margin: 0 auto;
+}
+
+.header {
+  margin-top: 160px;
+}
+
+.vito-img {
+  margin: 0 auto;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.about-me {
+  background: #EFEFEF;
+}
+
+.introduction {
+  width: 636px;
+  margin-left: auto;
+  padding-top: 48px;
+  padding-bottom: 48px;
+  margin-bottom: 80px;
+}
+
+h3 {
+  border-bottom: 3px solid #AE0000;
+}
+
+.vito-evans {
+  margin-bottom: 40px;
+}
+
+.vito-evans h3 {
+  margin-bottom: 16px;
+}
+
+.vito-evans ul li {
+  margin-top: 8px;
+}
+
+.vito-evans ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.education {
+  margin-bottom: 40px;
+}
+
+.education ul li {
+  margin-top: 16px;
+}
+
+.work-experience {
+  margin-bottom: 40px;
+}
+
+.work-experience ul li {
+  margin-top: 16px;
+}
+
+.awards {
+  margin-bottom: 160px;
+}
+
+.awards h3 {
+  margin-bottom: 4px;
+}
+
+.awards ul li {
+  margin-top: 12px;
+}
+
+.footer {
+  background: black;
+}
+
+.social-media {
+  margin: 0 auto;
+  text-align: center;
+}
+
+.social-media a {
+  display: inline-block;
+  padding-top: 64px;
+  padding-bottom: 64px;
+  padding-left: 40px;
+}
