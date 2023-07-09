@@ -202,6 +202,7 @@ img {
 
 .about-me {
   background: #EFEFEF;
+  margin-bottom: 80px;
 }
 
 .introduction {
@@ -209,7 +210,6 @@ img {
   margin-left: auto;
   padding-top: 48px;
   padding-bottom: 48px;
-  margin-bottom: 80px;
 }
 
 h3 {
