@@ -156,6 +156,7 @@ img {
 
 .tc-secondary {
   color: #949494;
+  font-style: italic;
 }
 
 .fs-1 {
@@ -218,6 +219,7 @@ h3 {
 
 .vito-evans {
   margin-bottom: 40px;
+  width: 636px;
 }
 
 .vito-evans h3 {
@@ -235,6 +237,7 @@ h3 {
 
 .education {
   margin-bottom: 40px;
+  width: 636px;
 }
 
 .education ul li {
@@ -243,6 +246,7 @@ h3 {
 
 .work-experience {
   margin-bottom: 40px;
+  width: 636px;
 }
 
 .work-experience ul li {
@@ -251,6 +255,7 @@ h3 {
 
 .awards {
   margin-bottom: 160px;
+  width: 636px;
 }
 
 .awards h3 {
