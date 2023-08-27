@@ -4,22 +4,25 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Document</title>
+
+
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap" rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="header container">
-    <h1 data-aos="fade-up" class="fs-5">VITO</h1>
-    <img data-aos="fade-up" class="vito-img"
+    <h1 data-aos="fade-up" data-aos-delay="300" class="fs-5">VITO</h1>
+    <img data-aos="fade-up" data-aos-delay="300" class="vito-img"
       src="https://github.com/hexschool/2022-web-layout-training/blob/main/2023week1/vito.png?raw=true"
       alt="vito picture" />
-    <h2 data-aos="fade-up" class="fs-5 text-align-right">RESUME</h2>
+    <h2 data-aos="fade-up" data-aos-delay="300" class="fs-5 text-align-right">RESUME</h2>
   </div>
   <div class="about-me">
     <div class="container">
-      <p data-aos="fade-up" class="introduction fs-3">
+      <p data-aos="fade-up" data-aos-delay="300" class="introduction fs-3">
         I'm Vito, a UI Designer with 5+ years of experience. I create visually
         appealing interfaces for web and mobile apps. Proficient in Sketch,
         Adobe XD, Figma, HTML, CSS, and JavaScript. I enjoy collaborating with
@@ -107,10 +110,13 @@
       </div>
     </div>
   </div>
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
   <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
   <script>
-    AOS.init();
+    // 在延遲後初始化 AOS
+    setTimeout(function ()
+    {
+      AOS.init();
+    }, 1000); // 這裡的延遲時間為 1000 毫秒（1 秒）
   </script>
 </body>
 </html>
