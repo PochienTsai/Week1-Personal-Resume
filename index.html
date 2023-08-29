@@ -9,7 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Castoro:ital@0;1&display=swap" rel="stylesheet" />
-  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -110,13 +110,9 @@
       </div>
     </div>
   </div>
-  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
   <script>
-    // 在延遲後初始化 AOS
-    setTimeout(function ()
-    {
-      AOS.init();
-    }, 1000); // 這裡的延遲時間為 1000 毫秒（1 秒）
+    AOS.init();
   </script>
 </body>
 </html>
